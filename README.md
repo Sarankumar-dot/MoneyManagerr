@@ -85,15 +85,6 @@ npm run dev
 
 ---
 
-## 🌐 GitHub Repositories
-
-Frontend Repo:
-👉 https://github.com/YOUR_USERNAME/money-manager-frontend
-
-Backend Repo:
-👉 https://github.com/YOUR_USERNAME/money-manager-backend
-
----
 
 ## 🔐 Environment Variables
 
@@ -103,15 +94,6 @@ Create a `.env` file in the root directory:
 VITE_API_URL=your_backend_url
 ```
 
----
-
-## 📌 Submission Details
-
-- Frontend Deployed URL: https://money-managerr-flax.vercel.app/
-- Backend Deployed URL: (Add your backend URL here)
-- Last Commit Hash ID: (Add your latest commit hash here)
-
----
 
 ## 📜 License
 
