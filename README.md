@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# 📊 Money Manager Web Application
 
-## Project info
+A full-stack Money Manager Web Application to manage personal and office financial transactions efficiently.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🔗 Live Demo
 
-## How can I edit this code?
+👉 https://money-managerr-flax.vercel.app/
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 📌 Dashboard
+- Month-wise Income & Expenditure
+- Week-wise Income & Expenditure
+- Year-wise Income & Expenditure
+- Transaction History
+- Category Summary Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+### ➕ Add Transactions
+- Add Income / Expense using Popup Modal
+- Two Tabs:
+  - Income
+  - Expense
+- Tracks:
+  - Date & Time
+  - Description
+  - Category (Fuel, Movie, Food, Loan, Medical, etc.)
+  - Division (Office / Personal)
 
-**Use your preferred IDE**
+### 🔍 Filters
+- Filter by Division (Office / Personal)
+- Filter by Categories
+- Filter by Date Range (Between Two Dates)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ✏️ Edit Restriction
+- Transactions can be edited within 12 hours only
+- Editing is restricted after 12 hours
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 💸 Account Management
+- Expense tracking
+- Transfer between accounts
+- Account transaction history
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Frontend
+- React.js
+- Tailwind CSS
+- Vite
+- React Icons
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Backend
+- Node.js
+- Express.js
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Database
+- MongoDB Atlas
+
+### Deployment
+- Frontend: Vercel
+- Backend: (Add your backend deployed URL here)
+
+---
+
+## 📂 Project Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/money-manager-frontend.git
+cd money-manager-frontend
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run locally
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 GitHub Repositories
 
-**Use GitHub Codespaces**
+Frontend Repo:
+👉 https://github.com/YOUR_USERNAME/money-manager-frontend
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Backend Repo:
+👉 https://github.com/YOUR_USERNAME/money-manager-backend
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🔐 Environment Variables
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Create a `.env` file in the root directory:
 
-## How can I deploy this project?
+```
+VITE_API_URL=your_backend_url
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📌 Submission Details
 
-Yes, you can!
+- Frontend Deployed URL: https://money-managerr-flax.vercel.app/
+- Backend Deployed URL: (Add your backend URL here)
+- Last Commit Hash ID: (Add your latest commit hash here)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📜 License
+
+This project is open-source and created for assessment and learning purposes.
